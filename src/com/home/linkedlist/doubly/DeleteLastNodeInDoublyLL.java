@@ -54,7 +54,7 @@ public class DeleteLastNodeInDoublyLL {
         temp.previous = null;
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         DeleteLastNodeInDoublyLL doublyLL = new DeleteLastNodeInDoublyLL();
         doublyLL.head = new ListNode<>(1);
         ListNode<Integer> secondNode = new ListNode<>(10);
